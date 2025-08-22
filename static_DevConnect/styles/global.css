@@ -1,0 +1,56 @@
+/*/////////////////// variavéis //////////////// */
+:root {
+    --cor-preto: #2b1d12;
+    --cor-azul: #044689;
+    --cor-branco: #bfd7ea;
+    --cor-vermelho: #DC493A;
+    --cor-cinza: #434d60;
+
+    --borda: 4px solid var(--cor-azul);
+    --borda-arredondada: 4px;
+
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+/* //////////  final das variavéis /////////// */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "GoogleSansCode", sans-serif;
+}
+
+body {
+    background-color: var(--cor-branco)
+}
+
+h1 {
+    position: absolute;
+    /*altera a posição do elemento*/
+    z-index: -1;
+    /*camadas do elemento*/
+    opacity: 0;
+    /*opacidade*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap')
