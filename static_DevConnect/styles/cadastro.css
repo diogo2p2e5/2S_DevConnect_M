@@ -1,0 +1,87 @@
+main{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+main > div{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  
+}
+
+form{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#upload-imagem{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro-estilo {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+main > div > form > p{
+    text-align: center;
+   display: flex;
+    font-size: var(--tamanho-fonte-sm);
+   color: var(--cor-cinza);
+}
+
+.formulario-botao-azul {
+    width: 100%;
+}
+
+.estilo-cadastro {
+    max-width: 340px;
+    width: 100%;
+    background-color: var(--cor-branco1);
+    border: var(--borda);
+padding: 30px;
+
+}
+
+#upload-imagem{
+ display: none;
+}
+
+.imagem-up{
+    padding: 10px 20px;
+    background-color: var(--cor-cinza);
+    color: var(--cor-branco1);
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: var(--tamanho-fonte-sm);
+}
+.formulario-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
