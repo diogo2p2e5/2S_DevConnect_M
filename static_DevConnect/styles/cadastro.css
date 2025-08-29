@@ -1,22 +1,23 @@
-main{
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-main > div{
+
+main>div {
 
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-  
+
 }
 
-form{
+form {
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
@@ -25,7 +26,7 @@ form{
     padding: 5px;
 }
 
-#upload-imagem{
+#upload-imagem {
     height: 60px;
     display: flex;
     justify-content: center;
@@ -39,48 +40,31 @@ form{
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 5px;
 }
 
-main > div > form > p{
+main>div>form>p {
     text-align: center;
-   display: flex;
+    display: flex;
     font-size: var(--tamanho-fonte-sm);
-   color: var(--cor-cinza);
+    color: var(--cor-cinza);
 }
 
 .formulario-botao-azul {
     width: 100%;
 }
 
-.estilo-cadastro {
+.estilo-formulario{
     max-width: 340px;
-    width: 100%;
-    background-color: var(--cor-branco1);
-    border: var(--borda);
-padding: 30px;
 
 }
 
-#upload-imagem{
- display: none;
-}
 
-.imagem-up{
-    padding: 10px 20px;
-    background-color: var(--cor-cinza);
-    color: var(--cor-branco1);
-    border-radius: 5px;
-    width: 100%;
-    cursor: pointer;
-    display: inline-block;
-    font-size: var(--tamanho-fonte-sm);
-}
-.formulario-campos{
+.formulario-campos {
     display: flex;
     flex-direction: column;
     width: 100%;

@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: var(--cor-branco)
+    background-color: var(--cor-branco1)
 }
 
 h1 {
@@ -61,11 +61,97 @@ h1 {
     font-size: var(--tamanho-fonte-sm);
     border-radius: var(--borda-arredondada);
     width: 100%;
-    
+
 }
 
-.formulario-campos > label{
+.formulario-campos>label {
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-cinza);
     font-weight: 600;
+}
+
+.estilo-formulario {
+    width: 100%;
+    background-color: var(--cor-branco1);
+    border: var(--borda);
+}
+
+#upload-imagem {
+    display: none;
+}
+
+.imagem-up {
+    padding: 10px 20px;
+    max-width: 300px;
+    background-color: var(--cor-cinza);
+    color: var(--cor-branco1);
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: var(--tamanho-fonte-sm);
+}
+
+
+
+
+
+/* cabeçalho */
+#cabecalho {
+    background-color: var(--cor-braco);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+}
+
+
+
+#cabecalho>nav {
+
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+.cabecalho-acoes {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#foto-perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 50%;
+}
+
+
+/* RESPONSIVO */
+@media only screen and (max-width: 500px) {
+    #logo-mobile {
+        display: initial;
+    }
+
+    #logo-desktop {
+        display: none;
+    }
 }

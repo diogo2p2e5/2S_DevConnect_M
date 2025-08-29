@@ -50,12 +50,6 @@ main>div>p {
 
 .estilo-formulario {
     max-width: 340px;
-    width: 100%;
-    background-color: var(--cor-branco1);
-    border: var(--borda);
-    
-
-
 }
 
 .formulario-campos {
