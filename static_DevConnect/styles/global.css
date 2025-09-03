@@ -6,9 +6,11 @@
     --cor-preto: #2b1d12;
     --cor-azul: #044689;
     --cor-branco1: #bfd7ea;
+    --cor-branco2: #ebf6ff;
     --cor-vermelho: #DC493A;
     --cor-cinza: #434d60;
     --cor-braco: #fafafa;
+    
 
     --borda: 4px solid var(--cor-azul);
     --borda-arredondada: 4px;
@@ -26,10 +28,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Google Sans Code", sans-serif;
+    outline-color: var(--cor-azul);
 }
 
 body {
-    background-color: var(--cor-branco1)
+    background-color: var(--cor-branco2)
 }
 
 h1 {
@@ -72,7 +75,7 @@ h1 {
 
 .estilo-formulario {
     width: 100%;
-    background-color: var(--cor-branco1);
+    background-color: var(--cor-branco2);
     border: var(--borda);
 }
 
@@ -81,15 +84,18 @@ h1 {
 }
 
 .imagem-up {
-    padding: 10px 20px;
+    min-height: 35px;
+    padding: 10px;
     max-width: 300px;
-    background-color: var(--cor-cinza);
-    color: var(--cor-branco1);
-    border-radius: 5px;
+    background-color: var(--cor-branco1);
+    color: var(--cor-azul);
+    border-radius: var(--borda-arredondada);
     width: 100%;
+    text-align: center;
     cursor: pointer;
     display: inline-block;
     font-size: var(--tamanho-fonte-sm);
+   font-weight: bold;
 }
 
 
@@ -103,7 +109,7 @@ h1 {
     height: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: var(--borda);
+    border-bottom: #2b1d12;
 }
 
 
@@ -136,7 +142,7 @@ h1 {
 
 
 
-#foto-perfil {
+.foto-perfil {
     width: 40px;
     height: 40px;
     object-fit: cover;

@@ -30,22 +30,22 @@
     <header id="cabecalho">
         <nav>
             <a href="./feed.html">
-                <img id="logo-desktop" src="../assets/images/logo-devconnect-md.svg" alt="">
+                <img id="logo-desktop" src="../assets/images/DevConnect.svg">
             </a>
 
             <a href="./feed.html">
-                <img id="logo-mobile" src="../assets/images/logo-devconnect-sm.svg" alt="">
+                <img id="logo-mobile" src="../assets/images/DevConnect-sm.svg" alt="">
             </a>
 
             <div class="cabecalho-acoes">
                 <a href="./feed.html">
-                    <img src="../assets/images/icone-casa-azul.svg" alt="">
+                    <img src="../assets/images/pixel_home.svg" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/images/icone-coracao-azul.svg" alt="">
+                    <img src="../assets/images/memory_heart.svg" alt="">
                 </a>
                 <a href="#">
-                    <img id="foto-perfil" src="../assets/images/thumb-1920-121103.jpg" alt="">
+                    <img class="foto-perfil" src="../assets/images/thumb-1920-121103.jpg" alt="">
                 </a>
 
             </div>
@@ -171,11 +171,11 @@
 
 
             <!-- Inicio criar publicaçao -->
-            <section id="criar-publi">
+            <section id="criar-publi" class="estilo-formulario">
                 <h2>Publicação</h2>
 
                 <form action="">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="" placeholder="digite a descrição do post"></textarea>
                 </form>
 
                 <footer>
@@ -187,11 +187,46 @@
 
                     </div>
 
-                    <button type="submit" class="formulario-botao-azul">Enviar</button>
+                    <button type="submit" class="formulario-botao-azul">Postar</button>
                 </footer>
 
 
 
+            </section>
+
+
+            <!-- inicio seção publicaçoes -->
+            <section id="publicacoes">
+                <!-- card publi -->
+                <article class="card-publi">
+                    <header>
+                        <a href="#">
+                            <img class="foto-perfil" src="../assets/images/thumb-1920-121103.jpg" alt="">
+                            robertinho
+                        </a>
+
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publicacao" src="../assets/images/thumb-1920-121103.jpg" alt="">
+                        <figcaption>
+                            robertinho
+                            <p class="descricao-publicacao">robertinho esta feliz, porque eu gosto de ver demonios chorarem</p>
+                        </figcaption>
+
+                        <div class="interacoes-publicacao">
+                            <button>
+                                <img src="../assets/images/memory_heart.svg" alt="">
+                            </button>
+                            <button>
+                                <img src="../assets/images/pixel_home.svg" alt="">
+                            </button>
+                            <span>100 curtidas</span>
+                        </div>
+
+                        <button type="button"> ver todos os comentarios...</button>
+                    </figure>
+                </article>
             </section>
 
         </div>
