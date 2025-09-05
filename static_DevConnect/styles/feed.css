@@ -8,7 +8,7 @@ main {
 }
 
 .container-flex-publi {
-    background-color: hotpink;
+    /* background-color: hotpink; */
     /* height: 700px; */
     width: 90%;
     max-width: 900px;
@@ -134,7 +134,7 @@ footer {
 .card-publi>figure {
     display: flex;
     flex-direction: column;
-
+    align-items: start;
 }
 
 
