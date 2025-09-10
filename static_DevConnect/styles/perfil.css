@@ -9,7 +9,7 @@ main {
 }
 
 
-main>div {
+ main>div {
     background-color: deeppink;
     width: 650px;
     height: 100%;
@@ -17,28 +17,9 @@ main>div {
     align-items: center;
     justify-content: center;
 
-}
-
-main>div>section {
-
-    background-color: darkgoldenrod;
-    width: 110px;
-    height: 110px;
-    display: flex;
-    justify-content: start;
+} 
 
 
-}
-
-
-body>main>div>section>img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-    object-position: right;
-    border-radius: 50%;
-
-}
 
 #info-perfil {
     background-color: blue;
@@ -46,25 +27,56 @@ body>main>div>section>img {
     height: 100%;
     display: flex;
     padding: 40px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
 
-#dados-perfil {
+
+#usu-foto{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+   gap: 15px;
+   align-items: center;
+   
 }
 
-#botoes-perfil {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: space-between;
-    align-items: baseline;
-    font-weight: bold;
+#usu-foto > img{
+  width: 80px;
+  height: 80px;
 }
+
+#coluna-1{
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+#coluna-2{
+    display: flex;
+    flex-direction: column;
+    
+}
+#coluna-3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#teste{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#usuario-perfil{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   flex-direction: column;
+   
+   
+}
+
 
 #botao-edit {
     background-color: var(--cor-branco1);
@@ -101,10 +113,14 @@ body>main>div>section>img {
 
 .publicacoes {
     width: 100%;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: var(--cor-branco1);
+    border: 5px;
+    border-color: var(--cor-azul);
 
 }
-
 
 main>div>section>a {
     display: flex;
@@ -140,12 +156,12 @@ main>div>section>a {
 .acoes-publi {
     display: flex;
     width: 88px;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     order: 2;
     margin-top: 15px;
     margin-left: 15px;
     background-color: transparent;
     border: none;
-    
+
 }
