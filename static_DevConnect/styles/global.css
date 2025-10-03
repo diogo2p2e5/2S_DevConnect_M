@@ -150,15 +150,6 @@ h1 {
     border-radius: 50%;
 }
 
-.estilo-formulario-perfil {
-    width: 100%;
-    background-color: transparent;
-    border: var(--borda);
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    
-}
 
 /* RESPONSIVO */
 @media only screen and (max-width: 500px) {

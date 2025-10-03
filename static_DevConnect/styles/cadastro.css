@@ -69,3 +69,12 @@ main>div>form>p {
     flex-direction: column;
     width: 100%;
 }
+
+.estilo-cadastro{
+    width: 30%;
+    border: var(--borda);
+    gap: 15px;
+    padding: 15 px;
+
+
+}
