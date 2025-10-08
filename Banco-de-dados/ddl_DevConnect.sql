@@ -52,5 +52,9 @@ CREATE TABLE tb_seguidor(
  id_usuario_seguindo INT  NOT NULL
 ,id_usuario_seguidor INT  NOT NULL
 
-
+PRIMARY KEY (id_usuario_seguidor, id_usuario_seguindo),
+FOREIGN KEY (id_usuario_seguidor) REFERENCES tb_usuario(id),
+FOREIGN KEY (id_usuario_seguindo) REFERENCES tb_usuario(id)
 );
+
+DROP TABLE tb_seguidor

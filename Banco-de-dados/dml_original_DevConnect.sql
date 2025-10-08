@@ -6,7 +6,7 @@ INSERT INTO tb_usuario (nome_completo, nome_usuario, email, senha, foto_perfil_u
 ,('Boris junior', 'bori_ior', 'BorisJu124@gmail.com', '20020411', '');
 
 INSERT INTO tb_publicacao (descricao, imagem_url, data_publicacao, id_usuario) VALUES
-(id_usuario_seguidor 'Fiz esse código semana passada, to muito orgulhoso', 'www.foto_codigo_matias.com.br', '2025/03/23', 1)
+('Fiz esse código semana passada, to muito orgulhoso', 'www.foto_codigo_matias.com.br', '2025/03/23', 1)
 ,('to quebrando a cabeça com esse codigo', 'www.foto_codigo_boris.com.br','2025/07/25',  2);
 
 INSERT INTO tb_curtida (id_usuario, id_publicacao) VALUES
