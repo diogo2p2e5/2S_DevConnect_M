@@ -59,8 +59,9 @@ main>div>form>p {
 }
 
 .estilo-formulario{
-    max-width: 340px;
-
+    max-width: 400px;
+    padding: 50px;
+    
 }
 
 

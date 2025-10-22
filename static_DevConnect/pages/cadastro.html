@@ -19,52 +19,60 @@
 </head>
 
 <body>
-    <h1>Tela de cadastro - DevConnect</h1>
-
+    <h1>Tela cadastro - DevConnect</h1>
     <main>
         <div>
-            <!-- pagina de cadastro -->
-            <form class="estilo-cadastro">
-                <img src="../assets/images/logo-devconnect-lg.svg" alt="logo DevConnect">
+            <!-- formulario -->
+            <form class="estilo-formulario">
+                
+                <img src="../assets/images/DevConnect-lg.svg" alt="Logo DevConnect">
 
-                <p>Cadastre-se para a comunidade exclusiva para desenvolvedores(as)</p>
+                <p>cadastre-se para comunidade  exclusiva de desenvolvedores(as)</p>
 
                 <div class="formulario-campos">
-                    <input type="text" placeholder="Nome e sobrenome">
+                    <label for="">Nome e Sobrenome:</label>
+                    <input type="text" name="" id="">
                 </div>
 
                 <div class="formulario-campos">
-                    <input type="text" placeholder="Nome de usuario">
+                    <label for="">Nome do usuário:</label>
+                    <input type="text" name="" id="">
                 </div>
 
                 <div class="formulario-campos">
-                    <input type="text" placeholder="E-mail">
+                    <label for="">E-mail:</label>
+                    <input type="email" name="" id="">
                 </div>
 
                 <div class="formulario-campos">
-                    <input type="password" name="" id="" placeholder="Senha">
+                    <label for="">Senha:</label>
+                    <input type="password" name="" id="">
                 </div>
 
-                <label for="upload-imagem" class="imagem-up">
-                    Faça upload de sua imagem aqui...
-                </label>
-                <input type="file" id="upload-imagem" >
+                <div id="upload" >
+                    <label for="campo-upload">Faça upload da sua imagem aqui...</label>
+                    <input type="file" name="" id="campo-upload">
+                </div>
+                
+                <button type="submit"class="formulario-botao-azul">Cadastre-se</button>
 
-                <button type="submit" class="formulario-botao-azul">Cadastre-se</button>
-
-                <p>Ao se cadastrar, voce concorda com nossos Termos, Politicas de Dados e Politicas de Cookies</p>
+                <p>Ao se cadastrar, voce concorda com nossos, Termos, Politica de dados e politica de cookie</p>
 
             </form>
-            <section id="cadastro-estilo" class="estilo-cadastro">
-<p>Já tem uma conta? <a href="#">Conecte-se</a></p>
+
+            <section id="secao-cadastro" class="estilo-formulario">
+                <p>Tem uma conta? <a href="http://127.0.0.1:5500/pages/index.html">Connecte-se</a></p>
             </section>
 
+            <p>Obtenha o aplicativo</p>
+
+            <section id="secao-instalacao">
+                <img src="../assets/images/app-store.svg" alt="Imagem falando da instalação no App Store">
+
+                <img src="../assets/images/google-play.svg" alt="Imagem falando da instalação no Play Store">
+            </section>
         </div>
-
-
     </main>
-
-
 </body>
 
 </html>
