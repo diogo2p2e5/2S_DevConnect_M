@@ -40,7 +40,7 @@ main>div>p {
 }
 
 #secao-isntalacao {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
